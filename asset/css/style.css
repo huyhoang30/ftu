@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    max-width: 1404px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.facebook {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/022/257/063/non_2x/icon-media-social-facebook-free-vector.jpg'); 
+}
+
+.tiktok {
+    background-image: url('https://w7.pngwing.com/pngs/814/840/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png'); 
+}
+
+.header-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon,
+.cart-icon {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin-left: 10px;
+}
+#slider {
+   margin-top: -170px;
+    width: 350px;
+    height: 526px;
+    margin-left: 74%;
+    background : url('./img/slider1.png') top center / cover no-repeat
+    
+}
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+    max-width: 238px;
+    height: auto;
+}
